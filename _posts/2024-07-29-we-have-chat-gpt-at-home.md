@@ -29,10 +29,10 @@ Ollama ermöglicht es, bereits trainierte Large Language Modells zu laden und mi
 
 Schnappt euch als erstes einen Linuxrechner (vorzugsweise mit GPU) und (falls nicht getan) updated und upgraded zunächst eure Package-Liste damit euer Linuxrechner up to date ist. Nächster Schritt ist dann Ollama herunterzuladen.
 
-    ```shell
-    sudo apt update && sudo apt upgrade
-    curl -fsSL https://ollama.com/install.sh | sh
-    ```
+```shell
+sudo apt update && sudo apt upgrade
+curl -fsSL https://ollama.com/install.sh | sh
+```
 
 Dieses Script downloaded und installiert Ollama und startet den Ollama System Service. Um zu überprüfen ob alles gut gelaufen ist kann man einfach den Localhost der Linux-Maschine auf Port 11434 aufrufen. Folgendes sollte auf dieser Website zu sehen sein:
 
@@ -42,9 +42,9 @@ So, da Ollama jetzt am Laufen ist kann man doch gleich loslegen, oder? Nicht gan
 
 Wir könen uns (ähnlich wie bei Docker) einfach ein LLM pullen. Ein beliebtes Modell ist z.B. llama3, welches von Meta stammt.
 
-    ```shell
-    ollama pull  llama3
-    ollama run  llama3
-    ```
+```shell
+ollama pull  llama3
+ollama run  llama3
+```
 
 Mit `ollama run` starten wir das LLM und können nach einer (mehr oder weniger) kurzen Wartezeit anfangen mit dem Chat Bot zu interagieren.
