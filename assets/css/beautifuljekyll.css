@@ -158,7 +158,7 @@ img {
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
     background-attachment: fixed;
-    box-shadow: inset 0 0 0 100vmax rgba(0,0,0,.2);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   {% endif %}
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
