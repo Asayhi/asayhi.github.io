@@ -874,7 +874,7 @@ code {
 
 pre code {
   padding: 0;
-  background-color: transparent;
+  background-color: rgb(255, 255, 255, .65);
   border-radius: 0;
 }
 
