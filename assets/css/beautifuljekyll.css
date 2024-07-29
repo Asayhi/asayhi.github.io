@@ -39,7 +39,7 @@ body {
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.9);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
   {% endif %}
   overflow-wrap: break-word;
   min-height: 100vh;
@@ -159,7 +159,7 @@ img {
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
     background-attachment: fixed;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
   {% endif %}
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
@@ -417,6 +417,7 @@ footer {
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
   {% endif %}
 }
 

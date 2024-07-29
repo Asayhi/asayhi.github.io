@@ -142,8 +142,8 @@ navbar-col: "#cccccc"
 navbar-text-col: "#FFFFFF"
 navbar-border-col: "#959595"
 footer-col: "#cccccc"
-footer-text-col: "#666666"
-footer-link-col: "#404040"
+footer-text-col: "#FFFFFF"
+footer-link-col: "#ABABAB"
 footer-hover-col: "#0085A1"
 footer-extra: extra_footer_info.html
 
@@ -151,7 +151,7 @@ footer-extra: extra_footer_info.html
 # instead of colour
 
 navbar-img: "/assets/img/polygonal-blue-background.jpg"
-#footer-img: "/assets/img/bgimage.png"
+footer-img: "/assets/img/polygonal-blue-background.jpg"
 page-img: "/assets/img/polygonal-blue-background.jpg"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
