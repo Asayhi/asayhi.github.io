@@ -891,7 +891,7 @@ pre {
 }
 .highlight > pre {
   background-image: linear-gradient(
-    rgb(255, 255, 255, .65), rgb(255, 255, 255, .65) 1.5em, rgb(255, 255, 255, .4) 1.5em, rgb(255, 255, 255, .4) 3em);
+    rgb(255, 255, 255, .5), rgb(255, 255, 255, .5) 1.5em, rgb(255, 255, 255, .49) 1.5em, rgb(255, 255, 255, .49) 3em);
   background-size: auto 3em;
   background-position-y: 0.625rem;
   border: 1px solid rgba(0,0,0,0.1);
