@@ -4,7 +4,7 @@ title: About me
 subtitle: What else needs to be said
 ---
 
-Man nennt mich Manuel und über mich gibt es folgendes zu sagen:
+Ich heiße Manuel und über mich gibt es folgendes zu sagen:
 
 - geboren am 26. Dezember 1997
 - Grafenwiesen ist meine bayerische Heimat
@@ -17,7 +17,6 @@ Man nennt mich Manuel und über mich gibt es folgendes zu sagen:
 ## Tech stack
 
 Oder: Womit ich schon Erfahrung gesammelt oder gearbeitet hab.
-
 Eigentlich nur relevant für Leute die sich mit IT beschäftigen
 
 Technologien:
@@ -43,8 +42,7 @@ Anderes:
 
 ## Home lab
 
- Mein eigenes kleines Home-Lab besteht im wesentlich aus zwei Komponenten:
-
+Mein eigenes kleines Home-Lab besteht im wesentlich aus zwei Komponenten:
 Workstation/Gaming Rig "Beteigeuze" (just a working Name):
 
 - Windows PC
