@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Manuels Webcorner
+title: Powerwoid
 
 # Your name to show in the footer
 author: Manuel Amesberger
@@ -53,8 +53,8 @@ social-network-links:
   email: "manuelamesberger@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 # facebook: yourName
-  github: asayhi
-  twitter: asayhi
+  github: Asayhi
+  twitter: Asayhi_
   # patreon: yourName
   # youtube: "@daattali"
   # whatsapp: 1234567
@@ -258,7 +258,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
