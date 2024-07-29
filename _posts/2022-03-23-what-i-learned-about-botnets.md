@@ -1,15 +1,13 @@
 ---
 layout: post
 title: What I learned about botnets
-subtitle: There's lots to learn!
+subtitle: How we got here?
 tags: [IT-Security, Botnet]
 thumbnail-img: /assets/img/stock_person_bot.svg.png
 comments: true
 mathjax: true
 author: Manuel Amesberger
 ---
-
-## Prelude (just a little story how we got here / can be skipped)
 
 Let's begin with a typical student story. The new winter semester started with lectures in presence after my first to 2 semesters at the OTH were fully remote. I only knew a few people since they had their face cams on during zoom lectures. And I needed to do a project to get mandatory credit points.
 
