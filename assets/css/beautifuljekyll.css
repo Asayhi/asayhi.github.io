@@ -842,7 +842,7 @@ table tr {
   padding: 0;
 }
 table tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: #505050;
 }
 table tr th,
 table tr td {
@@ -959,22 +959,22 @@ pre {
 }
 
 .box-note {
-  background-color: #eee;
+  background-color: rgb(34, 36, 38);
   border-left-color: #2980b9;
 }
 
 .box-warning {
-  background-color: #fdf5d4;
+  background-color: rgb(56, 45, 3);
   border-left-color: #f1c40f;
 }
 
 .box-error {
-  background-color: #f4dddb;
+  background-color: rgb(61,22,19);
   border-left-color: #c0392b;
 }
 
 .box-success {
-  background-color: #98FB98;
+  background-color: rgb(31, 60, 4);
   border-left-color: #3CB371;
 }
 
