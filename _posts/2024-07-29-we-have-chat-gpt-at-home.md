@@ -27,7 +27,7 @@ Ollama ermöglicht es, bereits trainierte Large Language Modells zu laden und mi
 
 ## How to: Setup Ollama
 
-Schnappt euch als erstes einen Linuxrechner (vorzugsweise mit GPU) und (falls nicht getan) updated und upgraded zunächst eure Package-Liste damit euer Linuxrechner up to date ist. Nächster Schritt ist dann Ollama herunterzuladen.
+Schnappt euch als erstes einen Linuxrechner (vorzugsweise mit GPU) und (falls nicht getan) updated und upgraded zunächst eure Package-Liste damit euer Linuxrechner up to date ist. Nächster Schritt ist dann [Ollama](https://ollama.com/) herunterzuladen.
 
 ```shell
 sudo apt update && sudo apt upgrade
@@ -48,3 +48,53 @@ ollama run  llama3
 ```
 
 Mit `ollama run` starten wir das LLM und können nach einer (mehr oder weniger) kurzen Wartezeit anfangen mit dem Chat Bot zu interagieren.
+
+```shell
+ollama run llama3
+>>> Introduce yourself
+Nice to meet you!
+
+My name is LLaMA, I'm a large language model trained by a team of researcher at Meta AI. My primary function is to
+understand and generate human-like text based on the input I receive.
+
+I've been trained on a massive dataset of text from various sources, including books, articles, and websites. This
+training enables me to recognize patterns, relationships, and nuances in language, allowing me to respond to
+questions and engage in conversations with users like you.
+
+I'm designed to be helpful, informative, and entertaining! I can assist with a wide range of topics, from general
+knowledge and history to science, technology, and entertainment. I can also generate creative content, such as
+stories, poems, or even dialogues for characters.
+
+Feel free to ask me anything, and I'll do my best to provide a helpful and engaging response. What would you like
+to talk about?
+
+>>> Send a message (/? for help)
+
+```
+
+## How to: Setup Open WebUI
+
+Nun haben wir eine LLM am laufen, aber die Art und Weise wie man mit ihm interagiert könnte noch durchaus comfortabler gestaltet werden. Hier kommte [Open WebUI](https://github.com/open-webui/open-webui) ins Spiel.
+Open WebUI ist ein extensible, feature-rich und nutzerfreundliches, self-hosted WebUI, welches komplett offline betrieben werden kann. Es unterstützt verschiedene LLM-Runner, einschließlich Ollama und OpenAI-kompatible APIs. Außerdem bringt es den Look and Feel der Chat-GPT Seite.
+
+Open WebUI kann man sehr einfach mit Docker betreiben. Hierfür reicht eigentlich folgender Befehl:
+
+```shell
+docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+```
+
+Open WebUI ist auf der IP-Adresse eueres Linuxrechners unter Port 8080 verfügbar.
+Beim Aufrufen der Seite wird man mit einem Anmeldeformular begrüßt. Hier ist es so, dass der erste erstellte User automatisch als Admin eingetragen wird. Standardmäßig müssen weitere User die sich anmelden wollen erst vom Admin freigeschalten werden.
+
+Im Administrationsbereich, der über das Menü unten rechts erreicht werden kann, kann unter Einstellungen > Verbindungen der Zugriff auf ollama bzw. die Verbindung zum Service überprüft werden.
+
+Es gibt noch soviele andere Spielereien und Features die man mit ollama und OpenWebUI umsetzen kann. Fürs erste sollte das allerdings genügen...
+
+## Fazit
+
+{: .box-note}
+**Notice**: Ich bin bisher noch nie sehr tief in die LLM und generative AI Thematik eingetaucht. Ich hate erst berührungen mit agentenbasierten Systemen und neuronalen Netzen für Bilderkennung/bearbeitung.
+
+Mich persönlich hat es überrauscht, dass relative mächtige LLMs auch auf Consumer hardware von vor 5-7 Jahren einigermaßen performant betrieben werden können. Ich wäre ansonsten davon ausgegangen, dass die bloße Interaktion mit einem solchen Chat-Bot LLM zumindest eine dediziete GPU einer aktuellen Generation mit TensorCores oder ähnlichem braucht. Aber die Praxis hat mir gezeigt das auch AMD Vega 56 GPUs ausreichend sind um einen angenehmen Betrieb zu ermöglichen.
+
+Ich für meinen Teil kann nur sagen, für die die es interessiert und sich einen Chat-Bot wünschen, ohne von den Onlinediensten (z.B. OpenAI) abhängig zu sein kann dies vielleicht eine echte Alternative sein.
