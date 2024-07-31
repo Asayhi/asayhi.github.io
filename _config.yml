@@ -21,6 +21,7 @@ author: Manuel Amesberger
 
 navbar-links:
   About Me: "aboutme"
+  Projetcs: "projects"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
