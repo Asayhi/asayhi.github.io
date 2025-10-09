@@ -12,7 +12,8 @@ Ich heiße Manuel und über mich gibt es folgendes zu sagen:
 - Thema meiner Bachelor-Thesis: "Autoencoders for Image Tracing preprocessing" doi: 10.1109/ACIT52158.2021.9548635
 - 2023 Master Informatik (M. Sc.) "Software Engineering" an der OTH Regensburg
 - Thema meiner Master-Thesis: "Verwendbarkeit von simulierten Botnetzdaten für das Training von Botnetzerkennungsalgorithmen"
-- seit 2023 Junior Softwaredeveloper bei b-plus Technologies in Deggendorf
+- 2023 bis 2025 Junior Softwaredeveloper bei b-plus Technologies in Deggendorf
+- seit 2025 Softwaredeveloper bei Rohde & Schwarz in Teisnach
 
 ## Tech stack
 
@@ -43,7 +44,7 @@ Anderes:
 ## Home lab
 
 Mein eigenes kleines Home-Lab besteht im wesentlich aus zwei Komponenten:
-Workstation/Gaming Rig "Beteigeuze" (just a working Name):
+Workstation/Gaming Rig "Beteigeuze":
 
 - Windows PC
 - Ryzen 9 12-Core Processor
